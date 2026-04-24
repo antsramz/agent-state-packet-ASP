@@ -1,0 +1,37 @@
+{
+  "template_name": "Agent State Packet (ASP)",
+  "description": "A machine-only identity and capability descriptor for autonomous agents.",
+  "inputs": {
+    "agent_name": {
+      "type": "string",
+      "description": "Name or identifier of the agent."
+    },
+    "capabilities": {
+      "type": "list",
+      "description": "List of functions the agent can perform."
+    },
+    "limits": {
+      "type": "list",
+      "description": "Defined boundaries or constraints for the agent."
+    },
+    "current_load": {
+      "type": "string",
+      "description": "Current workload or state."
+    }
+  },
+  "workflow": [
+    {
+      "step": "assemble",
+      "action": "Combine all inputs into a structured state packet."
+    },
+    {
+      "step": "validate",
+      "action": "Ensure all fields meet deterministic formatting rules."
+    },
+    {
+      "step": "output",
+      "action": "Return the final machine-readable ASP."
+    }
+  ],
+  "output_format": "json"
+}
