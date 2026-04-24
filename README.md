@@ -24,18 +24,6 @@ This template uses an off-grid, privacy-preserving payment method.
 - **Bitcoin (BTC, on-chain):**  
   bc1qv9lf8pe2lug0s7ccgqzasd4kzheepseal08ns6
 
-
-
-- **Monero (XMR):**  
-  47uRyUhZaBzWqcC2j9fPPeeJaKqtVCmGfAjf1dGr8c9hbxpsj364MVYfoWHogXEN2YaaJy3GRK6xe3GD6vaCr9zjQPakVEb
-
-
-
-### Accepted Networks
-
-- **Bitcoin (BTC, on-chain):**  
-  bc1qv9lf8pe2lug0s7ccgqzasd4kzheepseal08ns6
-
 - **Monero (XMR):**  
   47uRyUhZaBzWqcC2j9fPPeeJaKqtVCmGfAjf1dGr8c9hbxpsj364MVYfoWHogXEN2YaaJy3GRK6xe3GD6vaCr9zjQPakVEb
 
@@ -53,7 +41,7 @@ This template uses an off-grid, privacy-preserving payment method.
 
 - **Solana (USDT/USDC):**  
   4uGHtowXhJAkSeq8wocWzje7p3SV7hhRGxsC1DGLoLgL
-
+  
 ### Instructions
 1. Send payment on any listed network.  
 2. After confirmation, the marketplace or agent workflow auto-delivers the GitHub link.  
